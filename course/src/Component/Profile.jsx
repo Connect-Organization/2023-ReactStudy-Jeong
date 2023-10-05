@@ -1,13 +1,6 @@
 
 import React from 'react';
-<<<<<<< HEAD
 export default function Profile({name,describ}) {
-    
-=======
-export default function Profile() {
-    const name="Anjunbeum";
-    const describ="I'm pikachu!";
->>>>>>> b8c2155201eec83e6f07b27e87913bfbd90b338c
     return (
         <div>
             <img style={
