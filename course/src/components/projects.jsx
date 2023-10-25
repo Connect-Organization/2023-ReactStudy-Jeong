@@ -8,9 +8,11 @@ export default function Projects({year,place,position,date}) {
            justifyContent:'center'
            
         }}>
-        <p>
-        2023 | Connect | FrontEnd | 2023.08.09
-        </p>
+        
+        <p>{year} | </p>
+        <p>{place} | </p>
+        <p>{position} | </p>
+        <p>{date}</p>
 
         </div>
     );

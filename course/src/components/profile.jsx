@@ -3,7 +3,7 @@ export default function Profile({img,name,descib}) {
     return (
         <div style={{textAlign:"center"}}>
             <img
-                src={"https://images.pexels.com/photos/1921336/pexels-photo-1921336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} 
+                src={img} 
                 alt="profile"
                 style={{
                     borderRadius: "50%",
@@ -12,9 +12,8 @@ export default function Profile({img,name,descib}) {
                     objectFit: "cover"
                 }}
             />
-            <h1> Dana</h1>
-            <h4>Learner developer^^</h4>
-
+            <h1>{name}</h1>
+            <h4>{descib} ✨</h4>
         </div>
         
     );
