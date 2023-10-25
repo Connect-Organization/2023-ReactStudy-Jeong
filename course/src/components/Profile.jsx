@@ -13,7 +13,7 @@ export default function Profile({img,name,describ}) {
                 }}
             />
             <h1>{name}</h1>
-            <h3>{describ} 🎉</h3>
+            <h3>{describ} (っ˙˘˙)っ</h3>
         </div>
     );
 }
