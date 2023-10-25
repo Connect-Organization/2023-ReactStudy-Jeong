@@ -1,10 +1,10 @@
 import './App.css';
-import NameCard from './pages/NameCard';
+import Market from './pages/Market';
 
 function App() {
   return (
     <>
-      <NameCard />
+      <Market />
     </>
   );
 }
