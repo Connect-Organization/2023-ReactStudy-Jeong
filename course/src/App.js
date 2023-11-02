@@ -1,18 +1,14 @@
-import './App.css';
-import { Component } from 'react';
-import NameCard from './Pages/NameCard';
+import React from 'react';
+import Meal from "./Component/Meal";
+import Price from "./Component/Price";
+import Market from './Pages/Market';
+
 function App() {
-  return (
-   <div style={
-    {display:'flex',
-    justifyContent:'center'
-   }}>
-   <NameCard />
-   </div>
-  );
+    return( 
+        <>
+         <Market/>
+        </>
+    );
 }
 
 export default App;
-
-
-
