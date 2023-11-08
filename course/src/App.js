@@ -1,10 +1,10 @@
 import './App.css';
-import Market from './pages/Market';
+import TodoList from './pages/TodoList';
 
 function App() {
   return (
     <>
-      <Market />
+      <TodoList />
     </>
   );
 }
