@@ -1,14 +1,11 @@
-import React from 'react';
-import Meal from "./Component/Meal";
-import Price from "./Component/Price";
-import Market from './Pages/Market';
-
+import './App.css';
+import TodoList from './Pages/TodoList';
 function App() {
-    return( 
-        <>
-         <Market/>
-        </>
-    );
+  return (
+    <>
+      <TodoList />
+    </>
+  );
 }
 
 export default App;
