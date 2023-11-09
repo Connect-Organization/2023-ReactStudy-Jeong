@@ -40,7 +40,7 @@ export default function TodoList() {
     const handleDelete=(list)=>{
         setTodo(todo.filter(item=>item.index!==list.index));
     }
-    
+
     return (
         <div style={{
             backgroundColor:"#D6D46D",
@@ -49,7 +49,9 @@ export default function TodoList() {
             display:'flex',
             flexDirection:'column',
             gap:'5px'
-        }}>
+            }}
+            className={styles.all}
+        >
             <div className={styles.header}><h2>TODO LIST 🐢</h2></div>
             {todo && todo.map((list)=>{
                 return <div className={styles.contentParent} key={list.index}>
